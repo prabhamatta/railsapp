@@ -6,16 +6,23 @@
 # bundle exec rake db:migrate
 
 #rails generate scaffold Micropost content:string user_id:integer
+# bundle exec rake db:migrate
 
-#rails generate controller StaticPages home help --no-test-framework  -> creates contollers/static_pages_controller.rb
+#rails generate controller StaticPages home help --no-test-framework  --> creates contollers/static_pages_controller.rb
 
+#rails generate integration_test static_pages --> creates spec/request/static_pages_spec.rb
+
+#After adding tests page I ran
+# rails generate rspec:install
+
+#To run tests
+# bundle exec rspec
 
 # ------------
 #To PUSH TO HEROKU
 # git push heroku master
 # heroku open
 # heroku run rake db:migrate
-
 
 
 
@@ -65,7 +72,15 @@ end
 #added for tests spec
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
+  #Added for spec_helper to work
+	gem 'rspec', '~> 2.13'
+	gem 'capybara', '2.1.0'
+	gem 'activerecord-nulldb-adapter'
+
 end
+
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
