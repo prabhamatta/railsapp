@@ -80,6 +80,11 @@ group :development, :test do
 end
 
 
+#I dont know why Im adding this
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
 
 
 # Use ActiveModel has_secure_password
