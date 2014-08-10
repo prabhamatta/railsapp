@@ -28,8 +28,10 @@
 # heroku open
 # heroku run rake db:migrate
 
-#To see logs on heroku
+#For errors: To see logs on heroku
 # heroku logs
+#To deploy locally
+# heroku run rails console
 
 
 
@@ -74,6 +76,7 @@ gem 'spring',        group: :development
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'unicorn'
 end
 
 #added for tests spec
@@ -81,7 +84,6 @@ group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
   #Added for spec_helper to work
 	gem 'rspec', '~> 2.13'
-	gem 'capybara', '2.1.0'
 	gem 'activerecord-nulldb-adapter'
 
 end
