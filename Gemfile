@@ -20,9 +20,16 @@
 
 # ------------
 #To PUSH TO HEROKU
+# This should only be used if your Heroku deploy fails without it.
+# rake assets:precompile
+
+
 # git push heroku master
 # heroku open
 # heroku run rake db:migrate
+
+#To see logs on heroku
+# heroku logs
 
 
 
