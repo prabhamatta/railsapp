@@ -1,5 +1,5 @@
 #EVERYTIME YOU COME TO THIS FOLDER
-#rvm use ruby-2.0.0-p247
+# rvm use ruby-2.0.0-p247
 # ------------
 #CMDS TO GENERATE USER
 # rails generate scaffold User name:string email:string
@@ -7,11 +7,14 @@
 
 #rails generate scaffold Micropost content:string user_id:integer
 
+#rails generate controller StaticPages home help --no-test-framework  -> creates contollers/static_pages_controller.rb
+
 
 # ------------
 #To PUSH TO HEROKU
-#git push heroku master
-#heroku open
+# git push heroku master
+# heroku open
+# heroku run rake db:migrate
 
 
 
@@ -53,10 +56,15 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 
-#for Heroku deployment
+#added for Heroku deployment
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
+end
+
+#added for tests spec
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
 end
 
 # Use ActiveModel has_secure_password
