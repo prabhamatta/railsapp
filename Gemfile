@@ -1,3 +1,23 @@
+#EVERYTIME YOU COME TO THIS FOLDER
+#rvm use ruby-2.0.0-p247
+# ------------
+#CMDS TO GENERATE USER
+# rails generate scaffold User name:string email:string
+# bundle exec rake db:migrate
+
+#rails generate scaffold Micropost content:string user_id:integer
+
+
+# ------------
+#To PUSH TO HEROKU
+#git push heroku master
+#heroku open
+
+
+
+
+# ------------
+
 source 'https://rubygems.org'
 
 ruby '2.0.0'
