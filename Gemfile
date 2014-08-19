@@ -16,7 +16,7 @@
 # rails generate rspec:install
 
 #To run tests
-# bundle exec rspec
+# bundle exec rspec OR rspec spec/
 
 # ------------
 #To PUSH TO HEROKU
@@ -85,6 +85,22 @@ group :development, :test do
   #Added for spec_helper to work
 	gem 'rspec', '~> 2.13'
 	gem 'activerecord-nulldb-adapter'
+
+	#For automatic running of tests whenever code is changed
+  gem 'guard-rspec', '2.5.0'
+  # bundle exec guard init rspec
+  #  bundle exec guard
+
+  #for speeding up tests
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
+  #To bootstrap configuration
+  # bundle exec spork --bootstrap
+
+	#bundle exec spork
+	#OR
+  #bundle exec guard init spork
 
 end
 
