@@ -1,7 +1,13 @@
 <!--to get base title here, commented
 % provide(:title, 'Home') %-->
-<h1> Mini Rails App</h1>
-<p>
-  This is
-  <a href="https://github.com/prabhamatta/">Prabha's Github page</a>.
-</p>
+
+<div class="center hero-unit">
+  <h1>Welcome to Mini Rails App</h1>
+<hr>
+  <h2>
+     This is my  <a href="https://twitter.com/PrabhaMatta"> Twitter page </a>.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+<%= link_to image_tag("github.jpg", alt: "Github"), 'https://github.com/prabhamatta' %>

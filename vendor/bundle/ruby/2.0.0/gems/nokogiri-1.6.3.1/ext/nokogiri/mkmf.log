@@ -1,0 +1,534 @@
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lxml2     -lruby.2.0.0  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘main’:
+conftest.c:3: warning: unused parameter ‘argc’
+conftest.c:3: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lxml2     -lruby.2.0.0  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+package configuration for libxml-2.0
+cflags: -I/usr/include/libxml2
+ldflags: 
+libs: -lxml2
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2     -lxml2 -lruby.2.0.0  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+package configuration for libxslt
+cflags: -I/usr/include/libxml2
+ldflags: 
+libs: -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2     -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+package configuration for libexslt
+cflags: -I/usr/include/libxml2
+ldflags: 
+libs: -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2
+
+"/opt/twitter/bin/gcc-4.2 -E -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/xmlversion.h>
+4: 
+5: #if LIBXML_VERSION < 20621
+6: #error libxml2 is too old
+7: #endif
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -E -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2  conftest.c -o conftest.i"
+conftest.c:6:2: error: #error libxml2 is too new
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/xmlversion.h>
+4: 
+5: #if LIBXML_VERSION >= 20900
+6: #error libxml2 is too new
+7: #endif
+/* end */
+
+have_func: checking for xmlParseDoc() in libxml/parser.h... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxml/parser.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+have_func: checking for xsltParseStylesheetDoc() in libxslt/xslt.h... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:7: error: ‘xsltParseStylesheetDoc’ undeclared (first use in this function)
+conftest.c:7: error: (Each undeclared identifier is reported only once
+conftest.c:7: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:7: warning: implicit declaration of function ‘xsltParseStylesheetDoc’
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { xsltParseStylesheetDoc(); return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+have_func: checking for exsltFuncRegister() in libexslt/exslt.h... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘main’:
+conftest.c:8: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libexslt/exslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlHasFeature’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlHasFeature’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlHasFeature(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlFirstElementChild’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlFirstElementChild’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlFirstElementChild(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetValidStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlSchemaSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlSchemaSetValidStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlSchemaSetValidStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlSchemaSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"/opt/twitter/bin/gcc-4.2 -o conftest -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/x86_64-darwin13.2.0 -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/backward -I/opt/twitter/rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/opt/twitter/opt/libyaml/include -I/opt/twitter/opt/readline/include -I/opt/twitter/opt/libksba/include -I/opt/twitter/opt/openssl/include    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration  -fno-common -pipe  -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -I/usr/include/libxml2 -I/usr/include/libxml2 -I/usr/include/libxml2 conftest.c  -L. -L/opt/twitter/rvm/rubies/ruby-2.0.0-p247/lib -L/opt/twitter/opt/libyaml/lib -L/opt/twitter/opt/readline/lib -L/opt/twitter/opt/libksba/lib -L/opt/twitter/opt/openssl/lib -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2      -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lruby.2.0.0  -lxml2 -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lexslt -lxslt -lxml2 -lz -lpthread -licucore -lm -lxml2 -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlSchemaSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:6: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { xmlSchemaSetParserStructuredErrors(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
