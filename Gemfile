@@ -17,6 +17,12 @@
 
 #To run tests
 # bundle exec rspec OR rspec spec/
+# --------------
+# ###### WARNING:
+#        Removing `vendor/bundle`.
+#        Checking in `vendor/bundle` is not supported. Please remove this directory
+#        and add it to your .gitignore. To vendor your gems with Bundler, use
+#        `bundle pack` instead.
 
 # ------------
 #To PUSH TO HEROKU
