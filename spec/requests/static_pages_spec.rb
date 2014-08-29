@@ -38,6 +38,7 @@ describe "Static pages" do
   
   describe "Contact page" do
     before { visit contact_path }
+    it { page.should have_selector('h1', text: 'Contact') }
     it { page.should have_content('Contact') }
     it { page.should have_title(full_title('Contact')) }
   end
