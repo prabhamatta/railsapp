@@ -36,4 +36,8 @@ Railsapp::Application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  #Prabha: to show the deubgging on the runtime console
+  # config.logger = Logger.new(STDOUT)
+  # config.logger = Log4r::Logger.new("Application Log")
 end

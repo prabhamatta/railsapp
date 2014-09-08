@@ -38,4 +38,8 @@ Railsapp::Application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+
+  # Prabha: Speed up tests by lowering bcrypt's cost function.
+  ActiveModel::SecurePassword.min_cost = true
 end
