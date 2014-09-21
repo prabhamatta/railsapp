@@ -1,5 +1,16 @@
 Rails.application.routes.draw do
 
+  # root                 'static_pages#home'
+  # get    'help'     => 'static_pages#help'
+  # get    'about'    => 'static_pages#about'
+  # get    'contact'  => 'static_pages#contact'
+  # get    'signup'   => 'users#new'
+  # get    'login'    => 'sessions#new'
+  # delete 'logout'   => 'sessions#destroy'
+  # resources :users
+  # resources :sessions, only: [:new, :create, :destroy]
+
+  # This is old version.
   resources :users
   root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
@@ -12,9 +23,9 @@ Rails.application.routes.draw do
   match '/sessions', to: 'sessions#create',     via: 'POST'
   match '/sessions/new', to: 'sessions#new',     via: 'get'
   match '/sessions/id', to: 'sessions#destroy',     via: 'delete'
-
   resources :microposts
-  
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
