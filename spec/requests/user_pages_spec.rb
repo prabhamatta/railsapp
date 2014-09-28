@@ -83,7 +83,6 @@ describe "User pages" do
 
     describe "with invalid information" do
       before { click_button "Save changes" }
-
       it { should have_content('error') }
     end
   end #end of edit
