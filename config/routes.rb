@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'
+  match '/users', to: 'static_pages#index',       via: 'get'
 
   match '/sessions', to: 'sessions#create',     via: 'POST'
   match '/sessions/new', to: 'sessions#new',     via: 'get'

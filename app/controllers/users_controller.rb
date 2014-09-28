@@ -1,9 +1,10 @@
 class UsersController < ApplicationController
-  before_action :signed_in_user, only: [:index, :edit, :update, :destroy]
+  before_action :signed_in_user, only: [:index, :edit, :update]
   before_action :correct_user,   only: [:edit, :update]
 
   def index
-    @users = Micropost.all
+    @users = User.paginate(page: params[:page], :per_page => 10)
+
   end
 
   def new
